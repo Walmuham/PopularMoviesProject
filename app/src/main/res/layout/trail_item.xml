@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="@color/text_background"
+    android:baselineAligned="false"
+    >
+
+    <ImageView
+        android:id="@+id/icon_play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:layout_margin="@dimen/padding_5dp"
+        android:src="@drawable/ic_play" />
+
+
+            <TextView
+                android:id="@+id/trail_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/grey_dark"
+                android:text="N/A"/>
+
+</LinearLayout>
+
